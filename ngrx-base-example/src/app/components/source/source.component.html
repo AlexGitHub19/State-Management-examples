@@ -1,0 +1,14 @@
+
+<p class="component-title">Source component</p>
+
+<div>Count: {{ count$ | async }}</div>
+
+<div class="buttons-container">
+    <button (click)="decrement()" class="decrement-btn">Decrement</button>
+    <button (click)="increment()">Increment</button>
+</div>
+
+<div class="title-input-container">
+    <input type="text" class="set-title-input" [(ngModel)]="inputValue" />
+    <button (click)="setTitle()">Set new Title</button>
+</div>
