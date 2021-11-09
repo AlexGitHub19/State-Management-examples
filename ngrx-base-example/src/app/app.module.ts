@@ -22,7 +22,7 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools';
     FormsModule,
     StoreModule.forRoot({ example: exampleReducer }),
     StoreDevtoolsModule.instrument({
-      name: 'example 1 store',
+      name: 'NgRx base example store',
       maxAge: 25, // Retains last 25 states
       autoPause: true, // Pauses recording actions and state changes when the extension window is not open
     })

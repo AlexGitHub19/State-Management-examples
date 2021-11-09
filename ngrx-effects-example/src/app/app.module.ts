@@ -21,7 +21,7 @@ import { EffectsModule } from '@ngrx/effects';
     StoreModule.forRoot({ example: exampleReducer }),
     EffectsModule.forRoot([ExampleEffects]),
     StoreDevtoolsModule.instrument({
-      name: 'example 2 store',
+      name: 'NgRx example with effect store',
       maxAge: 25, // Retains last 25 states
       autoPause: true, // Pauses recording actions and state changes when the extension window is not open
     })
