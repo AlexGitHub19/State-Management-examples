@@ -1,0 +1,8 @@
+<div *ngIf="data$ | async as user; else loading">
+  <p>Name: {{ user.name }}</p>
+  <p>Age: {{ user.age }} </p>
+</div>
+
+<ng-template #loading>
+    Загрузка...
+  </ng-template>

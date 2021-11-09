@@ -1,0 +1,33 @@
+:host {
+  display: block;
+  width: 300px;
+  height: 120px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.component-title{
+    font-weight: 800;
+    margin: 0 0 15px 0;
+}
+
+.buttons-container {
+  display: flex;
+  margin-top: 10px;
+
+  .increment-btn {
+      margin-right: 5px;
+  }
+}
+
+.title-input-container {
+    margin-top: 10px;
+    display: flex;
+
+    .set-title-input {
+        margin-right: 5px;
+    }
+}
+
+
+
