@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
-import { ExampleSelectors } from 'src/app/store/example.selectors';
+import { ExampleSelectors } from '../../store/example.selectors';
+
 
 @Component({
   selector: 'app-consumer1',
