@@ -6,9 +6,7 @@ import { SourceComponent } from './components/source/source.component';
 
 import { FormsModule } from '@angular/forms';
 import { NgxsModule } from '@ngxs/store';
-import { NgxsReduxDevtoolsPluginModule } from '@ngxs/devtools-plugin';
 import { ExampleState } from './store/example.state';
-
 @NgModule({
   declarations: [AppComponent, SourceComponent],
   imports: [
@@ -22,7 +20,6 @@ import { ExampleState } from './store/example.state';
         injectContainerState: false,
       },
     }),
-    NgxsReduxDevtoolsPluginModule.forRoot( {name: 'NGXS example store'}),
   ],
   providers: [],
   bootstrap: [AppComponent],
